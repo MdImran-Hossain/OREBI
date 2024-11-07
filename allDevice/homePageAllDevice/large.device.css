@@ -1,0 +1,46 @@
+/* ================ Large device ============== */
+@media (max-width: 1199.98px) { 
+  
+    :root {
+  --main_bg_color: #fff;
+  --cardBanner_bg-color: #f3f3f3;
+  --band_color: #262626;
+  --primary_color: #767676;
+  --footer_font_color: #6d6d6d;
+  --font_family: "DM Sans", sans-serif;
+}
+/* ============== Header Css Start =========== */
+.HeaderPart {
+    display: flex;
+    column-gap: 490px;
+}
+/* ============== Header Css End =========== */
+    .adsContent {
+        row-gap: 10px;
+        padding-left: 28px;
+    }
+    .adsContent__title {
+        font-size: 37px;
+    }
+    .adsContentOne {
+        row-gap: 10px;
+        padding-left: 24px;
+        padding-bottom: 30px;
+    }
+
+    .adsContentOne__title {
+        font-size: 30px;
+    }
+    strong {
+        font-size: 32px;
+        
+    }
+    /* ================= phone part ======== */
+    .phonePartHead {
+        padding: 30px 10px;
+    }
+    .productCardImgOverlay {
+        row-gap: 12px;
+        padding: 12px 14px;
+    }
+ }

@@ -1,0 +1,101 @@
+/* ================ Small device ============== */
+@media (max-width: 767.98px) {
+  :root {
+    --main_bg_color: #fff;
+    --cardBanner_bg-color: #f3f3f3;
+    --band_color: #262626;
+    --primary_color: #767676;
+    --footer_font_color: #6d6d6d;
+    --font_family: "DM Sans", sans-serif;
+  }
+  /* ================ Header css Start=============== */
+  .HeaderPart {
+    display: flex;
+    column-gap: 77px;
+  }
+  /* ================ Header css End=============== */
+  /* ================ Navbar css Start =============== */
+  .NavbarPartMiddleFrom__input {
+    padding-right: 0px;
+    border: none;
+  }
+  .NavbarPartMiddleFrom {
+    background-color: var(--main_bg_color);
+    padding: 10px 17px;
+  }
+  /* ================ Navbar css End=============== */
+  /* ================ Footer css Start =============== */
+  .FooterPartIteam--cstmforsmall {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .FooterPartIconBoxWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .FooterPartIconBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .FooterPart__footerline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  /* ================ Footer css End=============== */
+
+    .count::after {
+        top: -8px;
+    }
+    .heroLeft {
+        row-gap: 12px;
+    }
+    .heroLeft__title {
+        font-size: 40px;
+    }
+
+    .adsContent {
+        row-gap: 18px;
+        padding-left: 28px;
+    }
+    .adsContent__title {
+        font-size: 37px;
+    }
+
+    .adsContentOne {
+        row-gap: 13px;
+        padding-left: 28px;
+        padding-bottom: 34px;
+    }
+    .adsContentOne__title {
+        font-size: 33px;
+    }
+    /* =========== phone part ========== */
+    .phonePartHead {
+      padding: 23px 10px;
+      row-gap: 9px;
+    }
+    .phonePartHead__title {
+      font-size: 20px;
+    }
+    .phonePartHead__sumary {
+      font-size: 10px;
+    }
+    .phonePartHead__btn {
+      padding: 8px 28px;
+      font-size: 10px;
+    }
+    .productCardHead__title{
+      font-size: 12px;
+    }
+    .productCardHead__price {
+      font-size: 12px;
+      
+    }
+ }
